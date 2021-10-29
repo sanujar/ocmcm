@@ -43,6 +43,8 @@ This script is not limited to Minecraft: all that needs to be modified are the c
 
 Also, the commands assume ```screen``` is being used to create a virtual console, to allow the server to continue running without the need for an active terminal session. This can be installed using ```sudo apt-get install screen``` on the server.
 
+While this document won't cover setting up your server, [this list of iptables commands](https://gist.github.com/Maxopoly/6c925a1f18f9e2f3b9818d1c1582b17e) is pretty useful for getting the firewall fully functional on ubuntu.
+
 ## Usage
 
 Assuming you have followed the steps above correctly, double-clicking or otherwise executing the respective script for the action you wish to perform should work. While the scripts are running, they will print what is currently happening, and will not exit automatically after finishing (waiting for an ```Enter``` from the user).
