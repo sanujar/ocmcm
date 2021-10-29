@@ -1,7 +1,6 @@
 # Oracle Cloud Minecraft Server Management Scripts (OCMCM)
 
 ## Introduction
-**Note: This is my first time using Python. Code quality may be questionable. Use with care.**
 
 These scripts were made, by request from non-technical players of a Minecraft server, to give them an easy way to control their server on Oracle Cloud, without having to use the web control panel and SSH manually.
 
@@ -38,7 +37,7 @@ You can also perform additional modification, such as changing the commands sent
 
 For help with finding your tenancy and VM OCIDs, please refer to [Required Keys and OCIDs](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm) and the other linked API documentation.
 
-The specific commands used to start and stop the script assume the Minecraft server files are in ```/home/ubuntu/Minecraft```, and that Fabric server is being used. If this is not the case, the ```.jar``` file referenced in Start.py, as well as the ```cd``` command, will need to be altered/removed. The command assumes there is 8 GB allocated to the server; if not, modify the ```-Xmx ``` value to maximise your RAM, while still giving some headroom for the OS, to avoid instability.
+The specific commands used to start and stop the script assume the Minecraft server files are in ```/home/ubuntu/Minecraft```, and that Fabric server is being used. If this is not the case, the ```.jar``` file referenced in Start.py, as well as the ```cd``` command, will need to be altered/removed. The command assumes there is 8 GB allocated to the server; if not, modify the ```-Xmx``` value to maximise your RAM, while still giving some headroom for the OS, to avoid instability.
 
 This script is not limited to Minecraft: all that needs to be modified are the commands executed over SSH in order to run a completely different program/server.
 
@@ -86,3 +85,5 @@ In case you get another message or error, it should be relatively descriptive. I
 
 
 In case there are any issues with the script, please create an issue in this GitHub repository. I unfortunately will not have time to respond to technical support requests; searching the internet is likely to get you a better response, faster, than I can provide. 
+
+**Note: This is my first time using Python. Code quality may be questionable. Use with care.**
