@@ -1,5 +1,14 @@
 # Oracle Cloud Minecraft Server Management Scripts (OCMCM)
 
+## Security Warning
+
+### **<span style="color:red">WARNING: This script requires *unsecured* private keys for both an Oracle Cloud account in your tenancy and your server. If they are compromised while on your or another user's computer, or shared with an untrusted party, attackers may have full access to your Oracle Cloud account and to your server.</span>**
+
+If you decide to share your keys with another trusted user to use this script, make sure to use a secure means of sharing to avoid compromise during transport.
+
+Please refer this <a href=https://github.com/sanujar/ocmcm/blob/main/flowchart.svg>helpful flowchart</a> made by a user if you are unsure about this warning.
+
+
 ## Introduction
 
 These scripts were made, by request from non-technical players of a Minecraft server, to give them an easy way to control their server on Oracle Cloud, without having to use the web control panel and SSH manually.
